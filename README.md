@@ -1,5 +1,5 @@
 This program allows a standard Java-SE platform to decode
-[http://code.google.com/p/secrets-for-android/ Secrets for Android]
+[Secrets for Android](http://code.google.com/p/secrets-for-android/)
 files.
 
 # Compilation instructions
@@ -19,7 +19,7 @@ cryptographic services, nor does it play particularly well with existing
 providers.
 If you install ``secrets.jar`` in another location you will need to
 copy alongside the appropriate
-[http://www.bouncycastle.org/ Legion of the Bouncy Castle]
+[Legion of the Bouncy Castle](http://www.bouncycastle.org/)
 crypto provider library ``bcprov-jdk....jar``.
 
 Furthermore, to avoid an exceception
