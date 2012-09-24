@@ -14,13 +14,14 @@ To decode an existing file run
 
 ``java -jar lib/secrets.jar`` _inputfile_ _outputfile_
 
-Sadly the default installation of Java runtime environment doesn't offer
+Sadly the default installation of the Jav 6 Java runtime environment doesn't offer
 cryptographic services, nor does it play particularly well with existing
 providers.
 If you install ``secrets.jar`` in another location you will need to
 copy alongside the appropriate
 [Legion of the Bouncy Castle](http://www.bouncycastle.org/)
 crypto provider library ``bcprov-jdk....jar``.
+Note that the JDK 7 seems to include the required cryptographic functionality out of the box.
 
 Furthermore, to avoid an exceception
 ``java.security.InvalidKeyException: Illegal key size`` you must modify
